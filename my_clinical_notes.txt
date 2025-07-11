@@ -1,0 +1,83 @@
+'patient_id': 0, 'note': "Discharge Summary:
+
+Patient: 60-year-old male with moderate ARDS from COVID-19
+
+Hospital Course:
+The patient was admitted to the hospital with symptoms of fever, dry cough, and dyspnea. During physical therapy on the acute ward, the patient experienced coughing attacks that induced oxygen desaturation and dyspnea with any change of position or deep breathing. To avoid rapid deterioration and respiratory failure, a step-by-step approach was used for position changes. The breathing exercises were adapted to avoid prolonged coughing and oxygen desaturation, and with close monitoring, the patient managed to perform strength and walking exercises at a low level. Exercise progression was low initially but increased daily until hospital discharge to a rehabilitation clinic on day 10.
+
+Clinical Outcome:
+The patient was discharged on day 10 to a rehabilitation clinic making satisfactory progress with all symptoms resolved.
+
+Follow-up:
+The patient will receive follow-up care at the rehabilitation clinic, with regular monitoring of progress and further rehabilitation exercises until full recovery. Any new symptoms or concerns should be reported to the clinic immediately.
+
+Overall Impression:
+The patient responded well to treatment, and with appropriate medical intervention, was able to overcome the difficulties faced during hospitalization for ARDS from COVID-19. The patient's level of care was of a high standard, with all necessary therapy provided and monitoring of progress before discharge.", 'question': "Can you provide a simplified paraphrase of the sentence, 'To avoid rapid deterioration and respiratory failure, a step-by-step approach was used for position changes' in the patient's discharge summary?", 'answer': "The healthcare team used a gradual approach to changing the patient's position to avoid worsening of the respiratory status and prevent respiratory failure.", 'task': 'Paraphrasing'.
+
+
+'patient_id': 1, 'note': "Discharge Summary:
+
+Admission Date: [Insert Date]
+Discharge Date: [Insert Date]
+
+Patient Name: [Insert Name]
+Age/Sex: 39-year-old Male
+Medical Record Number: [Insert Number]
+
+Admission Diagnosis: Unspecified respiratory tract infection
+Discharge Diagnosis: Resolved respiratory tract infection
+
+Hospital Course: The patient was hospitalized due to persistent fever and dry cough for 2 weeks, leading to reduced general health condition. On admission, the patient required 4 L/min of oxygen due to rapid shallow breathing at rest and severe breathlessness during minor physical activity. The initial physical therapy focused on educating the patient on dyspnea-relieving positions, mobilization techniques, and deep-breathing exercises. However, with time, the patient's anxiety-induced dyspnea became an issue, leading to the modification of therapy to relieve his dyspnea.
+
+The patient positively responded to the therapy, evidenced by a reduction in respiratory rate from 30 to 22 breaths/min and an increase in oxygen saturation from 92% to 96% on 4 L/min oxygen. Over the next few days, his dyspnea and anxiety started to alleviate gradually, and the patient regained his self-confidence. The therapy was eventually shifted to walking and strength training, and the patient was able to walk for 350m without a walking aid or supplemental oxygen before discharge.
+
+Hospital Outcome: The patient was discharged home in an improved condition, with resolved respiratory tract infection, showing no need for further hospitalization. The patient was advised to follow-up with his regular healthcare professional for further monitoring and management of his health status.
+
+Discharge Medications: None
+
+Follow-up: The patient was advised to follow-up with his regular healthcare professional regarding further monitoring and management of his health status.
+
+Impression: Resolved respiratory tract infection with successful physical therapy for dyspnea relief and anxiety reduction. The patient responded well to therapy and regained his self-confidence, able to walk independently before discharge.", 'question': "Which coreferences were resolved in the hospital course section related to the patient's respiratory tract infection?", 'answer': "The hospital course section resolved the coreferences related to the patient's respiratory tract infection by providing information on the initial physical therapy, which focused on dyspnea-relieving positions, mobilization techniques, and deep-breathing exercises, and the modified therapy that targeted the patient's anxiety-induced dyspnea. The patient positively responded to the therapy, alleviating his dyspnea and anxiety, and was eventually able to walk independently before discharge, indicating that his respiratory tract infection had been resolved.", 'task': 'Coreference Resolution'.
+
+
+'patient_id': 2, 'note': "Hospital Course Summary:
+
+Admission Date: 2024-03-15
+Discharge Date: 024-03-25
+
+Patient: John Door
+Sex: Male
+Age: 57 years
+
+Admission Diagnosis: Oxygen Desaturation
+
+Hospital Course:
+The patient was admitted to the ICU one week after a positive COVID-19 result due to oxygen desaturation. Physical therapy was initiated promptly after admission, which helped improve the patient's breathing frequency and oxygen saturation. The patient was guided to achieve a prone position resulting in a significant increase in oxygen saturation from 88% to 96%. The patient continued to receive intensive physical therapy, positioning, and oxygen therapy for the next few days. Although there were challenges in achieving the prone position due to the patient's profoundly reduced respiratory capacity and high risk of symptom exacerbation, the medical team succeeded in implementing a safe and individualized approach.
+
+After three days with this regime, the patient was transferred to the normal ward, where physical therapists continued his rehabilitation, including walking and strength training. However, the patient's severe instability remained a challenge. Nevertheless, after nine days from ICU admission, the patient was successfully discharged from the hospital as a pedestrian.
+
+Discharge Condition:
+At the time of discharge, the patient's medical condition had significantly improved, and he was considered stable enough to be discharged from the hospital. The patient's oxygen saturation had returned to normal limits, and his breathing frequency had decreased significantly.
+
+Summary:
+This course summary demonstrates that the patient responded positively to a physical therapy treatment regimen, including positioning, deep-breathing exercises, and walking. Although the patient's medical condition was quite severe during the initial ICU admission, his rehabilitation resulted in marked improvement, leading to a successful discharge from the hospital.", 'question': "What were the key improvements in the patient's medical condition during the hospital course, and how was physical therapy utilized to achieve these results?", 'answer': "During the hospital course, the patient's medical condition improved significantly, with his breathing frequency decreasing and oxygen saturation returning to normal limits. Physical therapy was utilized with a regimen that included positioning, deep-breathing exercises, and walking. The patient was guided to achieve a prone position resulting in a significant increase in oxygen saturation from 88% to 96%. The physical therapists also continued rehabilitation, including walking and strength training.", 'task': 'Summarization'.
+
+
+'patient_id': 105, 'note': 'Hospital Course Summary:
+
+Patient Name: Mary Doe
+Gender: Female
+Age: 60
+
+History and Reason for Admission:
+The patient was referred to our clinic with deterioration of the visual field. She had undergone treatment for NTG earlier and presented with normal IOP levels. Family history revealed that both parents had undergone treatment for glaucoma.
+
+Hospital Course:
+On initial examination, both optic discs appeared pale but not excavated, and did not match advanced visual fields. Drops were discontinued, and the patient was advised for follow-up. On the follow-up visit, there was further deterioration in the visual fields, and an MR scan revealed a meningioma, which was removed successfully by bilateral craniotomy. The patient showed significant improvement and complete resolution of visual fields in the right eye but had significant loss remaining in the left eye.
+
+Discharge Diagnosis:
+Rapid bilateral vision loss with regard to the BCVA and VF due to olfactory groove meningioma.
+
+Discharge Plan:
+The patient will be discharged with a recommendation for continued follow-up with the treating physician and appropriate specialists to monitor and manage any signs of vision loss, particularly in the left eye.', 'question': 'How would you effectively paraphrase the diagnosis and discharge plan information related to rapid bilateral vision loss due to an olfactory groove meningioma in the given discharge summary for better patient understanding?', 'answer': 'The patient was diagnosed with rapid vision loss in both eyes due to a meningioma. The meningioma was successfully removed, but the patient still has significant vision loss in the left eye. The patient is advised to follow up with their treating physician and specialists to monitor and manage any further vision loss.', 'task': 'Paraphrasing'.
+
